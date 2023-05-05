@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#fff">
+  <link rel="shortcut icon" href="img/favicon.ico">
+  <title>index.html</title>
+  <link rel="stylesheet" href="css/main.min.css?_v=20230420153652">
+</head>
+
+<body>
+  <div class="overlay">
+    <div class="loader">
+      <span class="loader__left-brace"></span>
+      <span class="loader__right-brace"></span>
+    </div>
+  </div>
+
+  <header class="header">
+    <div class="container">
+      <div class="header__inner">
+        <a class="logo" href="/">
+          <img src="img/logo.svg" alt="finsweet logo">
+        </a>
+        <div class="header__right">
+          <nav class="header__menu menu" data-nav>
+            <ul class="menu__list">
+              <li class="menu__item">
+                <a class="menu__link" href="/">Главная</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="blog.html">Блог</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="post.html">Запись</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="about.html">О нас</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="#">Связаться</a>
+              </li>
+            </ul>
+          </nav>
+          <button class="header__btn" data-da=".header__menu,768">Подписаться</button>
+        </div>
+        <button class="burger" data-burger aria-label="Открыть меню" aria-expanded="false">
+          <span class="burger__line"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+<main class="main">
+  <section class="hero section-b" style="background-image: url('img/bg.jpg');">
+  <div class="container">
+    <article class="blog-post blog-post--main">
+      <div class="blog-post__box">
+        <div class="blog-post__category">Опубликовано в <a href="#">startup</a></div>
+        <h1 class="blog-post__title">
+          <a href="#">
+            Пошаговое руководство по выбору отличных пар шрифтов
+          </a>
+        </h1>
+        <div class="blog-post__meta">
+          Автор: <a class="blog-post__author" href="#">ArtemNovikov</a> | <span>Апрель 6, 2023</span>
+        </div>
+        <p class="blog-post__descr">
+          Благодаря этому руководству, вы получите глубокие знания и навыки, необходимые для выбора наилучших пар шрифтов и
+          создания красивых и эффективных дизайнерских проектов.
+        </p>
+        <a class="blog-post__link btn" href="#">
+          Читать &gt;
+        </a>
+      </div>
+    </article>
+  </div>
+</section>
+  <section class="blog section-b">
+  <div class="container">
+    <div class="blog__inner">
+      <div class="post">
+        <h2 class="title section-title">Избранная запись</h2>
+        <article class="blog-post blog-post--featured">
+          <a class="blog-post__image" href="#">
+            <picture><source srcset="img/post.webp" type="image/webp"><img src="img/post.jpg" alt=""></picture>
+          </a>
+          <div class="blog-post__box">
+            <div class="blog-post__meta">
+              Автор: <a class="blog-post__author" href="#">ValeriaPavlova</a> | <span>Апрель 7, 2023</span>
+            </div>
+            <h3 class="blog-post__title">
+              <a href="#">
+                Нейросети: как они работают и как их применяют в жизни
+              </a>
+            </h3>
+            <p class="blog-post__descr">
+              В статье будут рассмотрены основные принципы работы нейросетей, их структура и типы, а также различные применения в
+              жизни, от распознавания лиц до создания управляемых автомобилей.
+            </p>
+            <a class="blog-post__link btn" href="#">
+              Читать &gt;
+            </a>
+          </div>
+        </article>
+      </div>
+      <aside class="sidebar">
+        <div class="widget popular popular-posts">
+          <div class="popular-posts__top widget-title">
+            <h2 class="title">Все записи</h2>
+            <a class="popular-posts__link" href="#">Посмотреть все</a>
+          </div>
+          <ul class="popular-posts__list">
+            <li class="popular-posts__item">
+              <article class="blog-post popular-posts__article">
+                <div class="blog-post__box" href="#">
+                  <div class="blog-post__meta">
+                    Автор: <a class="blog-post__author" href="#">JGuseva</a> | <span>Апрель 4, 2023</span>
+                  </div>
+                  <h4 class="blog-post__title">
+                    <a href="#">
+                      8 систем проектирования Figma, которые вы можете скачать бесплатно уже сегодня.
+                    </a>
+                  </h4>
+                </div>
+              </article>
+            </li>
+            <li class="popular-posts__item">
+              <article class="blog-post popular-posts__article">
+                <div class="blog-post__box" href="#">
+                  <div class="blog-post__meta">
+                    Автор: <a class="blog-post__author" href="#">EliSmirnova</a> | <span>Апрель 1, 2023</span>
+                  </div>
+                  <h4 class="blog-post__title">
+                    <a href="#">
+                      Нейросети: как они работают и как их применяют в жизни
+                    </a>
+                  </h4>
+                </div>
+              </article>
+            </li>
+            <li class="popular-posts__item">
+              <article class="blog-post popular-posts__article">
+                <div class="blog-post__box" href="#">
+                  <div class="blog-post__meta">
+                    Автор: <a class="blog-post__author" href="#">ValeriaPavlova</a> | <span>Март 8, 2023</span>
+                  </div>
+                  <h4 class="blog-post__title">
+                    <a href="#">
+                      Увеличьте скорость и эффективность написания CSS c помощью SCSS-препроцессоров
+                    </a>
+                  </h4>
+                </div>
+              </article>
+            </li>
+            <li class="popular-posts__item">
+              <article class="blog-post popular-posts__article">
+                <div class="blog-post__box" href="#">
+                  <div class="blog-post__meta">
+                    Автор: <a class="blog-post__author" href="#">JGuseva</a> | <span>Март 2, 2023</span>
+                  </div>
+                  <h4 class="blog-post__title">
+                    <a href="#">
+                      Профессиональные секреты дизайна в Figma для создания высококачественных проектов
+                    </a>
+                  </h4>
+                </div>
+              </article>
+            </li>
+          </ul>
+        </div>
+      </aside>
+    </div>
+  </div>
+</section>
+  <section class="about section-b">
+  <div class="container decor-line">
+    <div class="about__inner">
+      <div class="about__col">
+        <span class="about__subtitle subtitle">о нас</span>
+        <h2 class="about__title title">
+          Мы являемся сообществом авторов контента, которые делятся своими знаниями.
+        </h2>
+        <p class="about__descr">
+          Наша команда создали платформу, где каждый может поделиться
+          своими знаниями и опытом, помочь другим и научиться новому. Будьте частью нашего сообщества и встречайте новых людей,
+          которые, как и вы, стремятся стать лучше в своих областях.
+        </p>
+        <a class="about__link" href="#">
+          Читать &gt;
+        </a>
+      </div>
+      <div class="about__col">
+        <span class="about__subtitle subtitle">наша цель</span>
+        <h3 class="about__title heading">
+          Создание ценного контента для творческих людей по всему миру
+        </h3>
+        <p class="about__descr">
+          Мы верим, что каждый человек может достичь великих высот в творчестве, и мы готовы помочь в этом. Присоединяйтесь к
+          нашему сообществу и начните творить с нами!
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+  <section class="categories  section-b">
+  <div class="container">
+    <h2 class="categories__title title">Выберите категорию</h2>
+    <ul class="categories__list">
+      <li class="categories__item category category--business">
+        <h3 class="category__title heading">
+          <a href="#">Бизнес</a>
+        </h3>
+        <p class="category__descr">
+          помогаем делу развиваться и процветать
+        </p>
+      </li>
+      <li class="categories__item category category--startup">
+        <h3 class="category__title heading">
+          <a href="#">Стартап</a>
+        </h3>
+        <p class="category__descr">
+          Воплощаем ваши идеи и мечты в жизнь
+        </p>
+      </li>
+      <li class="categories__item category category--economy">
+        <h3 class="category__title heading">
+          <a href="#">Экономика</a>
+        </h3>
+        <p class="category__descr">
+          Анализируем и объясняем экономические процессы
+        </p>
+      </li>
+      <li class="categories__item category category--technology">
+        <h3 class="category__title heading">
+          <a href="#">Технологии</a>
+        </h3>
+        <p class="category__descr">
+          Исследуем и представляем новейшие технологии,
+        </p>
+      </li>
+    </ul>
+  </div>
+</section>
+  <section class="discover section-b">
+  <div class="container" style="background-image: url('img/1.jpg');">
+    <div class="discover__content">
+      <span class="discover__subtitle subtitle">Зачем мы начали</span>
+      <h2 class="discover__title">Все началось с простой идеи и превратилось в нашу страсть</h2>
+      <p class="discover__descr">
+        Истории людей, чьи простые идеи и страсть к ним привели к созданию инновационных проектов. Мы делимся историями успеха,
+        чтобы вдохновить и помочь
+      </p>
+      <a class="discover__link btn" href="#">Узнать историю &gt;</a>
+    </div>
+  </div>
+</section>
+  <section class="team team-home">
+  <div class="container">
+    <h2 class="team__title title">Список авторов</h2>
+    <ul class="team__list">
+      <li class="team__item person">
+        <div class="person__image">
+          <picture><source srcset="img/team/1.webp" type="image/webp"><img src="img/team/1.jpg" alt=""></picture>
+        </div>
+        <h3 class="person__title heading">Артём</h3>
+        <p class="person__position">@ArtemNovikov</p>
+        <div class="person__social social">
+          <a class="person__social-link social__link" href="#" target="_blank" aria-label="Facebook">
+            <svg>
+              <use xlink:href="img/sprite.svg#svg-fb"></use>
+            </svg>
+          </a>
+          <a class="person__social-link social__link" href="#" target="_blank" aria-label="Twitter">
+            <svg>
+              <use xlink:href="img/sprite.svg#svg-tw"></use>
+            </svg>
+          </a>
+          <a class="person__social-link social__link" href="#" target="_blank" aria-label="Instagram">
+            <svg>
+              <use xlink:href="img/sprite.svg#svg-inst"></use>
+            </svg>
+          </a>
+          <a class="person__social-link social__link" href="#" target="_blank" aria-label="LinkedIn">
+            <svg>
+              <use xlink:href="img/sprite.svg#svg-link"></use>
+            </svg>
+          </a>
+        </div>
+      </li>
+      <li class="team__item person">
+        <div class="person__image">
+          <picture><source srcset="img/team/2.webp" type="image/webp"><img src="img/team/2.jpg" alt=""></picture>
+        </div>
+        <h3 class="person__title heading">Валерия</h3>
+        <p class="person__position">@ValeriaPavlova</p>
+        <div class="person__social social">
+          <a class="person__social-link social__link" href="#" target="_blank" aria-label="Facebook">
+            <svg>
+              <use xlink:href="img/sprite.svg#svg-fb"></use>
+            </svg>
+          </a>
+          <a class="person__social-link social__link" href="#" target="_blank" aria-label="Twitter">
+            <svg>
+              <use xlink:href="img/sprite.svg#svg-tw"></use>
+            </svg>
+          </a>
+          <a class="person__social-link social__link" href="#" target="_blank" aria-label="Instagram">
+            <svg>
+              <use xlink:href="img/sprite.svg#svg-inst"></use>
+            </svg>
+          </a>
+          <a class="person__social-link social__link" href="#" target="_blank" aria-label="LinkedIn">
+            <svg>
+              <use xlink:href="img/sprite.svg#svg-link"></use>
+            </svg>
+          </a>
+        </div>
+      </li>
+      <li class="team__item person">
+        <div class="person__image">
+          <picture><source srcset="img/team/3.webp" type="image/webp"><img src="img/team/3.jpg" alt=""></picture>
+        </div>
+        <h3 class="person__title heading">Елизавета</h3>
+        <p class="person__position">@EliSmirnova</p>
+        <div class="person__social social">
+          <a class="person__social-link social__link" href="#" target="_blank" aria-label="Facebook">
+            <svg>
+              <use xlink:href="img/sprite.svg#svg-fb"></use>
+            </svg>
+          </a>
+          <a class="person__social-link social__link" href="#" target="_blank" aria-label="Twitter">
+            <svg>
+              <use xlink:href="img/sprite.svg#svg-tw"></use>
+            </svg>
+          </a>
+          <a class="person__social-link social__link" href="#" target="_blank" aria-label="Instagram">
+            <svg>
+              <use xlink:href="img/sprite.svg#svg-inst"></use>
+            </svg>
+          </a>
+          <a class="person__social-link social__link" href="#" target="_blank" aria-label="LinkedIn">
+            <svg>
+              <use xlink:href="img/sprite.svg#svg-link"></use>
+            </svg>
+          </a>
+        </div>
+      </li>
+      <li class="team__item person">
+        <div class="person__image">
+          <picture><source srcset="img/team/4.webp" type="image/webp"><img src="img/team/4.jpg" alt=""></picture>
+        </div>
+        <h3 class="person__title heading">Юлия</h3>
+        <p class="person__position">@JGuseva</p>
+        <div class="person__social social">
+          <a class="person__social-link social__link" href="#" target="_blank" aria-label="Facebook">
+            <svg>
+              <use xlink:href="img/sprite.svg#svg-fb"></use>
+            </svg>
+          </a>
+          <a class="person__social-link social__link" href="#" target="_blank" aria-label="Twitter">
+            <svg>
+              <use xlink:href="img/sprite.svg#svg-tw"></use>
+            </svg>
+          </a>
+          <a class="person__social-link social__link" href="#" target="_blank" aria-label="Instagram">
+            <svg>
+              <use xlink:href="img/sprite.svg#svg-inst"></use>
+            </svg>
+          </a>
+          <a class="person__social-link social__link" href="#" target="_blank" aria-label="LinkedIn">
+            <svg>
+              <use xlink:href="img/sprite.svg#svg-link"></use>
+            </svg>
+          </a>
+        </div>
+      </li>
+    </ul>
+    <ul class="partners">
+      <li class="partners__item">
+        <img src="img/partners/1.svg" alt="">
+      </li>
+      <li class="partners__item">
+        <img src="img/partners/2.svg" alt="">
+      </li>
+      <li class="partners__item">
+        <img src="img/partners/3.svg" alt="">
+      </li>
+      <li class="partners__item">
+        <img src="img/partners/4.svg" alt="">
+      </li>
+      <li class="partners__item">
+        <img src="img/partners/5.svg" alt="">
+      </li>
+      <li class="partners__item">
+        <img src="img/partners/6.svg" alt="">
+      </li>
+    </ul>
+  </div>
+</section>
+  <section class="testi section-b">
+  <div class="container">
+    <div class="testi__inner">
+      <div class="testi__content">
+        <span class="testi__subtitle subtitle">Отзывы</span>
+        <h2 class="testi__title title">
+          Что люди говорят о нашем блоге
+        </h2>
+        <p class="testi__descr">
+          Взгляните на отзывы от наших читателей! Узнайте, почему они так ценят информацию.
+        </p>
+      </div>
+      <div class="testi__slider swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="testi__item">
+              <blockquote class="testi__quote">
+                <p>
+                  Здесь я нашел огромное количество полезной информации
+                  и научился многому новому. Также мне понравилось, что каждый может поделиться своими знаниями, помочь другим и получить обратную связь.
+                </p>
+              </blockquote>
+              <div class="testi__author author">
+                <div class="author__image">
+                  <picture><source srcset="img/testi/1.webp" type="image/webp"><img src="img/testi/1.jpg" alt=""></picture>
+                </div>
+                <div class="author__meta">
+                  <h4 class="author__name">Алексей Иванов</h4>
+                  <span class="author__city">Москва, Россия</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="testi__item">
+              <blockquote class="testi__quote">
+                <p>
+                  Очень доволен платформой. Мне нравится, что здесь я могу найти любую информацию, связанную с моей
+                  работой. Я нашел здесь массу полезных материалов и научился новым навыкам. Большое
+                  спасибо за такой полезный ресурс
+                </p>
+              </blockquote>
+              <div class="testi__author author">
+                <div class="author__image">
+                  <picture><source srcset="img/testi/2.webp" type="image/webp"><img src="img/testi/2.jpg" alt=""></picture>
+                </div>
+                <div class="author__meta">
+                  <h4 class="author__name">Дмитрий Петров</h4>
+                  <span class="author__city">Владимир, Россия</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="testi__item">
+              <blockquote class="testi__quote">
+                <p>
+                  Я рекомендовала этот сайт нескольким своим друзьям, которые также увлекаются обучением и саморазвитием. Все они
+                  поблагодарили меня за то, что я познакомила их с таким ценным ресурсом.
+                </p>
+              </blockquote>
+              <div class="testi__author author">
+                <div class="author__image">
+                  <picture><source srcset="img/testi/3.webp" type="image/webp"><img src="img/testi/3.jpg" alt=""></picture>
+                </div>
+                <div class="author__meta">
+                  <h4 class="author__name">Юлия Плужникова</h4>
+                  <span class="author__city">Москва, Россия</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="testi__navigation control">
+          <button class="control__btn control__btn--prev" aria-label="previous review">
+            <svg width="22" height="14">
+              <use xlink:href="img/sprite.svg#svg-arrow"></use>
+            </svg>
+          </button>
+          <button class="control__btn control__btn--next" aria-label="next review">
+            <svg width="22" height="14">
+              <use xlink:href="img/sprite.svg#svg-arrow"></use>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+  <section class="promo section-b">
+  <div class="container">
+    <div class="promo__inner">
+      <div class="promo__content">
+        <h2 class="promo__title title">
+          Присоединяйтесь к нашей команде
+        </h2>
+        <p class="promo__descr">
+          Начните воплощать свои идеи и мечты. <br>Уже сегодня!
+        </p>
+        <a class="promo__btn btn" href="#">Присоединиться</a>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+<footer class="footer">
+  <div class="container">
+    <div class="footer__top">
+      <a class="logo" href="#">
+        <img src="img/logo.svg" alt="finsweet logo">
+      </a>
+      <nav class="footer__nav">
+        <ul class="footer__list">
+          <li class="footer__item">
+            <a class="footer__link" href="#">Главная</a>
+          </li>
+          <li class="footer__item">
+            <a class="footer__link" href="#">Блог</a>
+          </li>
+          <li class="footer__item">
+            <a class="footer__link" href="#">О нас</a>
+          </li>
+          <li class="footer__item">
+            <a class="footer__link" href="#">Связаться</a>
+          </li>
+          <li class="footer__item">
+            <a class="footer__link" href="#">Политика</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="footer__middle">
+      <h2 class="footer__title title">Подпишитесь на рассылку, чтобы получать новости</h2>
+      <form class="footer__form" action="#">
+        <input class="footer__input" type="text" placeholder="Введите ваш Email">
+        <button class="footer__btn btn" type="submit">
+          Подписаться
+        </button>
+      </form>
+    </div>
+    <div class="footer__bottom">
+      <div class="footer__contact">
+        <address>Finstreet 118 2561 Fintown</address>
+        <p><a href="mailto:hello@finsweet.com">Hello@finsweet.com</a> 020 7993 2905</p>
+      </div>
+      <ul class="footer__social social">
+        <li class="footer__social-item">
+          <a class="footer__social-link social__link" href="#" target="_blank" aria-label="Facebook">
+            <svg>
+              <use xlink:href="img/sprite.svg#svg-fb"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="footer__social-item">
+          <a class="footer__social-link social__link" href="#" target="_blank" aria-label="Twitter">
+            <svg>
+              <use xlink:href="img/sprite.svg#svg-tw"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="footer__social-item">
+          <a class="footer__social-link social__link" href="#" target="_blank" aria-label="Instagram">
+            <svg>
+              <use xlink:href="img/sprite.svg#svg-inst"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="footer__social-item">
+          <a class="footer__social-link social__link" href="#" target="_blank" aria-label="LinkedIn">
+            <svg>
+              <use xlink:href="img/sprite.svg#svg-link"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</footer>
+<script src="js/app.min.js?_v=20230420153652"></script>
+</body>
+
+</html>
